@@ -1,0 +1,118 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="imageview1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_arrow_back_black_24dp</item>
+        <item name="android:layout_marginTop">25dp</item>
+    </style>
+
+    <style name="text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginLeft">80dp</item>
+        <item name="android:text">Add new thing</item>
+        <item name="android:textColor">#fff</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="imageview2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_view_list_black_24dp</item>
+        <item name="android:layout_marginLeft">70dp</item>
+        <item name="android:layout_marginTop">31dp</item>
+    </style>
+
+    <style name="logo">
+        <item name="android:layout_width">70dp</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:src">@drawable/logo</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">70dp</item>
+    </style>
+
+    <style name="editText1">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">200dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:hint">Project name</item>
+        <item name="android:textColorHint">#8B8BD1</item>
+    </style>
+
+    <style name="spinner1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">200dp</item>
+        <item name="android:layout_marginLeft">305dp</item>
+    </style>
+
+    <style name="editText2">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginTop">250dp</item>
+        <item name="android:inputType">text</item>
+        <item name="android:hint">Tittle</item>
+        <item name="android:textColorHint">#8B8BD1</item>
+    </style>
+
+    <style name="imageview3">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:src">@drawable/ic_cancel_black_24dp</item>
+        <item name="android:layout_marginLeft">320dp</item>
+        <item name="android:layout_below">@id/editText1</item>
+        <item name="android:layout_marginTop">6dp</item>
+    </style>
+
+    <style name="editText3">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">300dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:hint">Place</item>
+        <item name="android:textColorHint">#8B8BD1</item>
+    </style>
+
+    <style name="editText4">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/editText3</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:hint">Time</item>
+        <item name="android:textColorHint">#8B8BD1</item>
+    </style>
+
+    <style name="editText5">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_below">@id/editText4</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:hint">Notificetion</item>
+        <item name="android:textColorHint">#8B8BD1</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_below">@id/editText5</item>
+        <item name="android:hint">ADD YOUR THING</item>
+        <item name="android:layout_marginTop">50dp</item>
+        <item name="android:background">#08F7EC</item>
+    </style>
+
+</resources>
+

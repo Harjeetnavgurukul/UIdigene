@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="editText1">
+        <item name="android:layout_width">330dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">200dp</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:hint">Project name</item>
+        <item name="android:textColorHint">#8B8BD1</item>
+        <item name="android:backgroundTint">#8B8BD1</item>
+    </style>
+</resources>

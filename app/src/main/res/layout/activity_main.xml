@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#45529d"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            style="@style/imageview1"
+            android:id="@+id/imageview1"
+            />
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text1"
+            style="@style/text"
+           />
+
+        <ImageView
+            android:id="@+id/imageview2"
+            style="@style/imageview2"
+            />
+
+    </LinearLayout>
+
+    <ImageView
+        style="@style/logo"
+        android:id="@+id/logo"
+        />
+
+    <EditText
+       android:id="@+id/editText1"
+       style="@style/editText1"
+        />
+
+    <Spinner
+        style="@style/spinner1"
+        android:id="@+id/spinner1"
+        android:backgroundTint="#8B8BD1"
+        />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        style="@style/editText2"
+        android:backgroundTint="#8B8BD1"
+       />
+
+    <ImageView
+        style="@style/imageview3"
+        android:id="@+id/imageview3"
+        />
+
+    <EditText
+        android:id="@+id/editText3"
+        style="@style/editText3"
+        android:backgroundTint="#8B8BD1"
+        />
+
+    <EditText
+        android:id="@+id/editText4"
+        style="@style/editText4"
+        android:backgroundTint="#8B8BD1"
+        />
+
+    <EditText
+       style="@style/editText5"
+       android:backgroundTint="#8B8BD1"
+        android:id="@+id/editText5"
+        />
+
+    <Button
+       style="@style/Button"
+        android:id="@+id/button"
+        />
+
+
+
+
+</RelativeLayout>
